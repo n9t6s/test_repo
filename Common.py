@@ -1,9 +1,12 @@
+import os
+
+
 class Creds:
-    login = "defaultlogin1"
-    email = "defaultlogin1@mail.ru"
-    password = "defaultPassword1"
+    login = os.getenv("TEST_LOGIN")
+    email = os.getenv("TEST_EMAIL")
+    password = os.getenv("TEST_PASSWORD")
 
 class Text:
-    destination = "destination@gmail.com"
-    theme = "Тестовое письмо счастья из Нигерии"
-    message = "Привет, есть лишние $500?"
+    destination = os.getenv("TEST_DEST")
+    theme = os.getenv("TEST_THEME")
+    message = os.getenv("TEST_MESSAGE")
