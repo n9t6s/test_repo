@@ -6,4 +6,4 @@ class Creds:
 class Text:
     destination = "destination@gmail.com"
     theme = "Тестовое письмо счастья из Нигерии"
-    message = "Привет, есть лишние ассерты?"
+    message = "Привет, есть лишние $500?"
