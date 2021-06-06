@@ -1,9 +1,9 @@
 class Creds:
     login = "defaultlogin1"
     email = "defaultlogin1@mail.ru"
-    password = "eroo2Phe"
+    password = "defaultPassword1"
 
 class Text:
-    destination = "pashafufel@gmail.com"
+    destination = "destination@gmail.com"
     theme = "Тестовое письмо счастья из Нигерии"
     message = "Привет, есть лишние ассерты?"
